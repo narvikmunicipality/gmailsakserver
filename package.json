@@ -1,0 +1,30 @@
+{
+  "name": "gmailsakserver",
+  "version": "0.0.1",
+  "description": "Resource server for GmailSakAddOn.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "keywords": [
+    "gmailsak",
+    "gmail",
+    "websak"
+  ],
+  "author": "Bjørn-Tore Lilleng",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "axios": "^0.19.1",
+    "bottlejs": "^1.7.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "he": "^1.2.0",
+    "ldapjs-no-python": "^1.0.3",
+    "log4js": "^6.1.0",
+    "mssql": "^6.0.1",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  }
+}
